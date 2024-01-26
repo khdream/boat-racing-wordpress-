@@ -31,7 +31,7 @@ nav {
 }
 
 .logo img {
-    width: 80rem;
+    width: 60rem;
     height: auto;
     margin-right: 12rem;
 }
@@ -151,7 +151,7 @@ nav .contact:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 80rem;
+    gap: 70rem;
     padding-top: 90rem;
     padding-bottom: 152rem;
 }
@@ -177,7 +177,7 @@ nav .contact:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 80rem;
+    gap: 70rem;
     padding-bottom: 60rem;
 }
 
@@ -192,8 +192,7 @@ nav .contact:hover {
 .about-txt h1 {
     font-size: 60px;
     font-weight: bold;
-    color: #777676;
-    opacity: 0.57;
+    color: rgba(0, 1, 47, 0.57);
 }
 
 .about-txt h2 {
@@ -529,6 +528,7 @@ form {
     justify-content: space-between;
     align-items: center;
     padding-top: 32px;
+    gap: 70rem;
 }
 
 .company h3, .department h3, .post h3 {
@@ -551,6 +551,7 @@ form {
     justify-content: space-between;
     align-items: center;
     padding-top: 32px;
+    gap: 70rem;
 }
 
 textarea {
