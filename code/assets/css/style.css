@@ -1,0 +1,620 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* transition: 0.6s; */
+    font-size: calc(100vw/1440);
+    font-family: Yu Gothic;
+}
+
+/* ------------nav-------------- */
+
+nav {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 40rem 24px 40rem;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.16);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 80rem;
+    height: auto;
+    margin-right: 12rem;
+}
+
+.logo h1 {
+    font-family: Yu Gothic;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo h2 {
+    font-family: Yu Gothic;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0C77C0;
+}
+
+menu {
+    width: 798rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200rem;
+    padding-right: 60rem;
+    align-items: center;
+}
+
+menu a {
+    font-family: Yu Gothic;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    display: none;
+}
+
+.menu-a:hover hr {
+    animation: menu-a 0.4s;
+    display: block;
+}
+
+@keyframes menu-a {
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+nav .contact {
+    font-family: Yu Gothic;
+    display: flex;
+    padding: 17px 40rem;
+    border: 1px solid black;
+    font-size: 20px;
+    height: 40rem;
+    align-items: center;
+}
+
+nav .contact:hover {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* -----------header------------ */
+
+.header-content {
+    background-image: url("../img/top-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 273rem;
+    padding-bottom: 305rem;
+    text-align: center;
+    padding-left: 200rem;
+    padding-right: 200rem;
+}
+
+.hc-txt {
+    font-size: 40px;
+    padding: 45rem 120rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.52);
+}
+
+.header-bottom {
+    padding-top: 40rem;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
+.hb-o {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 40rem;
+}
+
+.hb-t {
+    width: 200rem;
+    padding: 10rem 40rem;
+    font-size: 20px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.hb-t:hover {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* -----------main------------ */
+
+.worry {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80rem;
+    padding-top: 90rem;
+    padding-bottom: 152rem;
+}
+
+.worry-img {
+    width: 540px;
+}
+
+.worry-txt h2 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 22px;
+}
+
+.worry-txt div {
+    width: 546px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80rem;
+    padding-bottom: 60rem;
+}
+
+.about-o {
+    width: 321px;
+}
+
+.about-txt {
+    width: 540px;
+}
+
+.about-txt h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #777676;
+    opacity: 0.57;
+}
+
+.about-txt h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 36rem;
+    text-align: center;
+}
+
+.about-txt .txt {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 300;
+}
+
+.about-btn {
+    width: 269px;
+    padding: 10rem 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 100rem;
+}
+
+.about-btn:hover {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.service {
+    background: url("../img/service.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 48rem;
+    padding-bottom: 81rem;
+    margin: auto;
+}
+
+.service h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #B2B1B1;
+}
+
+.service h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.ser-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 78.4rem;
+    padding-top: 80rem;
+}
+
+.ser-txt {
+    width: 700px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20rem;
+    line-height: 36px;
+}
+
+/* -----------service------------ */
+
+.bus-info {
+    padding-top: 100rem;
+    padding-bottom: 100rem;
+}
+
+.bus-info .one {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(0, 1, 47, 0.57);
+    text-align: center;
+}
+
+.bus-info .two {
+    font-size: 20px;
+    padding-bottom: 48rem;
+    text-align: center;
+}
+
+.bus-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24rem;
+}
+
+.bus-item {
+    width: 300px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.item-img {
+    background: url("../img/bus-1.png");
+    padding: 219px 200px 7px 0px;
+}
+
+.item-img .img-txt {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 7rem 7rem;   
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bus-item h2 {
+    color: #0C77C0;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20rem 16rem 16rem 16rem;
+}
+
+.bus-item h3 {
+    font-size: 16px;
+    padding-bottom: 16rem;
+    padding-left: 16rem;
+    font-weight: 400;
+    padding-right: 16rem;
+}
+
+.bus-item:hover {
+    cursor: pointer;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.16);
+}
+
+.bus-item h4 {
+    color: #0C77C0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    padding-bottom: 15rem;
+    padding-right: 20rem;
+}
+
+.mt-60 {
+    margin-top: 60rem;
+    margin-bottom: 0;
+}
+
+/* ---------product--------- */
+
+.product {
+    background-color: #F6F6F7;
+    padding: 40rem 300rem 82rem 300rem;
+    text-align: center;
+}
+
+.product h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(0, 1, 47, 0.57);
+}
+
+.product h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 36px;
+    padding-top: 10px;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.items {
+    width: 309px;
+    background-color: white;
+    margin-bottom: 60rem;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.items img {
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.items-o {
+    padding-top: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20rem;
+    padding-right: 28rem;
+}
+
+.items-o-o {
+    width: 104px;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: white;
+    border-radius: 30px;
+    background-color: #0C77C0;
+}
+
+.items-o-date {
+    font-size: 14px;
+}
+
+.items-txt {
+    padding: 30px 30rem 10px 30rem;
+    font-size: 16px;
+    text-align: start;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+/* --------------news------------- */
+
+.news {
+    background-color: white;
+    padding: 12px 60rem 38px 60rem;
+    margin-top: 94px;
+}
+
+.news h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(0, 1, 47, 0.57);
+    padding-bottom: 10px;
+}
+
+.news h2 {
+    font-size: 20px;
+    padding-bottom: 48px;
+}
+
+.news-item {
+    display: flex;
+    padding-left: 29rem;
+    gap: 100rem;
+    margin-bottom: 24px;
+    border-bottom: 1px dotted rgba(0, 1, 47, 0.57);
+}
+
+.news-date {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 1, 47, 0.57);
+}
+
+.news-txt {
+    font-size: 16px;
+}
+
+.mt-52 {
+    margin-top: 52px;
+}
+
+/* ---------------footer------------- */
+
+footer {
+    padding: 120px 300rem 0 300rem;
+}
+
+footer h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+footer h2, footer h3, footer h4 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+footer .h4 {
+    background-color: black;
+    padding: 6px 14rem;
+    color: white;
+}
+
+form {
+    padding-top: 30px;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sort-txt {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sort-txt h4 {
+    background-color: black;
+    color: white;
+    padding: 6px 14rem;
+}
+
+.sort-input, .furigana input {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+}
+
+.sort-input h6 {
+    font-size: 16px;
+}
+
+.company, .department, .post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.company h3, .department h3, .post h3 {
+    font-size: 16px;
+    width: 400px;
+    font-size: 16px;
+    color: black;
+}
+
+.company input, .department input, .post input, .furigana input {
+    width: 550px;
+    font-size: 16px;
+    padding-left: 18rem;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+
+.furigana {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+}
+
+textarea {
+    width: 550px;
+    font-size: 16px;
+    padding-left: 18rem;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+
+.flex-top {
+    align-items: flex-start;
+}
+
+.policy {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+input[type="checkbox"] {
+    width: 21px;
+    height: 21px;
+}
+
+input[type="radio"] {
+    width: 21px;
+    height: 21px;
+}
+
+.policy h3, .policy a {
+    font-size: 16px;
+    padding-bottom: 0;
+}
+
+.policy a {
+    color: black;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 16px 200rem;
+    margin-top: 38px;
+    margin-bottom: 94px;
+    font-size: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #777676;
+    cursor: pointer;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
