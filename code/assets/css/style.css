@@ -87,6 +87,7 @@ nav .contact {
     border: 1px solid black;
     font-size: 20px;
     height: 40rem;
+    text-align: center;
     align-items: center;
 }
 
@@ -127,10 +128,12 @@ nav .contact:hover {
     font-size: 32px;
     font-weight: bold;
     padding-bottom: 40rem;
+    padding-left: 300rem;
+    padding-right: 300rem;
 }
 
 .hb-t {
-    width: 200rem;
+    width: 235px;
     padding: 10rem 40rem;
     font-size: 20px;
     border: 1px solid black;
@@ -167,7 +170,7 @@ nav .contact:hover {
     width: 546px;
     font-size: 20px;
     line-height: 40px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .about {
@@ -204,7 +207,7 @@ nav .contact:hover {
 .about-txt .txt {
     font-size: 20px;
     line-height: 34px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .about-btn {
@@ -229,7 +232,7 @@ nav .contact:hover {
     background-size: cover;
     background-position: center;
     padding-top: 48rem;
-    padding-bottom: 81rem;
+    padding-bottom: 50rem;
     margin: auto;
 }
 
@@ -252,7 +255,7 @@ nav .contact:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 78.4rem;
-    padding-top: 80rem;
+    padding-top: 30rem;
 }
 
 .ser-txt {
@@ -464,7 +467,7 @@ nav .contact:hover {
 /* ---------------footer------------- */
 
 footer {
-    padding: 120px 300rem 0 300rem;
+    padding: 120px 400rem 0 400rem;
 }
 
 footer h1 {
@@ -497,7 +500,7 @@ form {
     align-items: center;
 }
 .sort-txt {
-    width: 400px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -530,13 +533,13 @@ form {
 
 .company h3, .department h3, .post h3 {
     font-size: 16px;
-    width: 400px;
+    width: 300px;
     font-size: 16px;
     color: black;
 }
 
 .company input, .department input, .post input, .furigana input {
-    width: 550px;
+    width: 500px;
     font-size: 16px;
     padding-left: 18rem;
     padding-top: 12px;
@@ -551,7 +554,7 @@ form {
 }
 
 textarea {
-    width: 550px;
+    width: 500px;
     font-size: 16px;
     padding-left: 18rem;
     padding-top: 12px;
@@ -592,7 +595,7 @@ input[type="radio"] {
 input[type="submit"] {
     background-color: black;
     color: white;
-    padding: 16px 200rem;
+    padding: 10px 150rem;
     margin-top: 38px;
     margin-bottom: 94px;
     font-size: 20px;
@@ -601,7 +604,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #777676;
+    background-color: rgba(0, 0, 0, 0.85);
     cursor: pointer;
 }
 
